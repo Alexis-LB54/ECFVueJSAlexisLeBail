@@ -7,7 +7,7 @@ export const CircleStore = defineStore({
   }),
   persist: true,
   getters: {
-    getList: (state) => state.list
+    getList: (state) => state.list,
   },
   actions: {
     increment() {

@@ -18,11 +18,11 @@
 </template>
 
 <script>
-import { CircleStore } from "../stores/circle";        // on importe le store pinia et utilise mapState pour récupérer et affichier nos valeurs sétées précédement dans le store,
+import { CircleStore } from "../stores/circle"; // on importe le store pinia
 import { mapState, mapWritableState } from "pinia";
 export default {
   computed: {
-    ...mapState(CircleStore, ["getList"]),
+    ...mapState(CircleStore, ["getList"]), // on utilise et utilise mapState pour récupérer et affichier nos valeurs sétées précédement dans le store
   },
 };
 </script>
