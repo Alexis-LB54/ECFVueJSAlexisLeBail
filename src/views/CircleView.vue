@@ -1,16 +1,10 @@
 <template>
   <div>
     <form @submit.prevent="CalculCircle(circle)">
-      <table>
-        <thead>
-          <label for="rayon">Rayon de votre cercle</label>
-        </thead>
-        <tbody>
-          <input type="number" min="0" v-model="circle.rayon" id="rayon" />
-        </tbody>
-
-        <input type="submit" value="Vive les Maths !" />
-      </table>
+      <p>Entrez le rayon de votre cercle en cm !</p>
+      <label for="rayon">Rayon de votre cercle</label>
+      <input type="number" min="0" v-model="circle.rayon" id="rayon" />
+      <input type="submit" value="Vive les Maths !" />
     </form>
   </div>
 </template>
@@ -57,13 +51,14 @@ export default {
 form {
   background-color: #e5f9ff;
   padding: 10px;
-  width: 280px;
+  width: 300px;
   border: 3px solid #49b0ff;
   border-radius: 5px;
 }
 
+
 input {
-  width: 100px;
+  width: 120px;
   margin-left: 5px;
   box-shadow: 1px 1px 1px #002fff;
   cursor: pointer;
