@@ -8,7 +8,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="circle in getList" :key="circle">
+      <tr v-for="circle in getList" :key="circle"> ccc
         <th>{{ circle.perimeter }} cm</th>
         <th>{{ circle.area }} cm2</th>
         <th>{{ circle.volume }} cm3</th>
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { CircleStore } from "../stores/circle";
+import { CircleStore } from "../stores/circle";        // on importe le store pinia et utilise mapState pour récupérer et affichier nos valeurs sétées précédement dans le store,
 import { mapState, mapWritableState } from "pinia";
 export default {
   computed: {
