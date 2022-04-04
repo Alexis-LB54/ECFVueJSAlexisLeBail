@@ -10,6 +10,7 @@ defineProps<{
       N'hésitez pas à consulter notre Notice d'utilisation pour plus de détail
       et pour prendre connaissances de proprirétés mathémathiques.
     </h3>
+    <p>Cette application Web permet de calculer le périmètre d'un cercle, l'aire d'un disque et le volume d'une sphère à partir de seulement un rayon r exprimé en cm</p>
   </div>
 </template>
 

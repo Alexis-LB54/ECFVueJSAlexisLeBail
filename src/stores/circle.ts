@@ -1,6 +1,5 @@
 import { defineStore } from "pinia";
 
-
 export const CircleStore = defineStore({
   id: "CircleStore",
   state: () => ({

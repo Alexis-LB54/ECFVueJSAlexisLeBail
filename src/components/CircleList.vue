@@ -8,7 +8,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr v-for="circle in getList" :key="circle"> ccc
+      <tr v-for="circle in getList" :key="circle">
         <th>{{ circle.perimeter }} cm</th>
         <th>{{ circle.area }} cm2</th>
         <th>{{ circle.volume }} cm3</th>
